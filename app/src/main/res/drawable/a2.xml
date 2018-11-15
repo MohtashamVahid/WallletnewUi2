@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="oval">
+            <stroke
+                android:width="3dp"
+                android:color="#7e819f"
+                android:dashWidth="4dp"
+                android:dashGap="6dp"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/margin_circular_view"
+        android:left="@dimen/margin_circular_view"
+        android:right="@dimen/margin_circular_view"
+        android:top="@dimen/margin_circular_view">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="oval">
+            <gradient
+                android:angle="0"
+                android:endColor="#54fcff"
+                android:startColor="#165cff"/>
+        </shape>
+    </item>
+    <item
+        android:bottom="@dimen/margin_circular_view2"
+        android:left="@dimen/margin_circular_view2"
+        android:right="@dimen/margin_circular_view2"
+        android:top="@dimen/margin_circular_view2">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+               android:shape="oval">
+            <gradient
+                android:centerColor="#4e5067"
+                android:endColor="#4e5067"
+                android:gradientRadius="500dp"
+                android:startColor="#7d809e"
+                android:type="radial">
+            </gradient>
+        </shape>
+    </item>
+
+
+</layer-list>
